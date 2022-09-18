@@ -1,12 +1,8 @@
 /*
     Google fonts
  */
- /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Merriweather&family=Noto+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Merriweather&family=Noto+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap');
 
-
- /* font-family: 'Dancing Script', cursive;
- */
- 
 
 /*
     commont style
@@ -23,7 +19,7 @@
   */
   .carousel-item img {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
   }
   .about-me-img  {
    display: flex;

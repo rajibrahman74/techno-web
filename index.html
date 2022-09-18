@@ -22,16 +22,11 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
       <!-- 
-        font awasome cdn
+        Animate libeary css
        -->
-       <script src="https://kit.fontawesome.com/db4ee0c467.js" crossorigin="anonymous"></script>
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-       <!-- 
-        Google font
-        -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Merriweather&family=Noto+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -39,7 +34,7 @@
         header section start
      -->
      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand fs-2" href="#">Techno-<span class="text-primary">Web</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,22 +81,22 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/banar7.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="images/banar4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
                   <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/banar6.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="images/banar5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
                   <h5>Second slide label</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/banar5.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                <img src="images/banar6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
                 </div>
@@ -124,11 +119,11 @@
       <section class="about mb-5">
         <div class="container">
             <div class="text-center my-5">
-                <h1>About <span class="text-primary">me</span></h1>
+                <h1 data-aos="fade-up" data-aos-offset="200">About <span class="text-primary">me</span></h1>
                 <hr class="w-25 m-auto">
             </div>
             <div class="row">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="zoom-in" data-aos-offset="200">
                 <h1>What do you <span class="text-primary">want to know?</span></h1>
                 <p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident natus officiis, blanditiis debitis esse necessitatibus facere nobis accusamus consectetur a illo voluptate. Aspernatur molestiae totam aut omnis, tempore expedita dolor!</p>
                 <button type="button" class="btn btn-light mb-5">More about me</button>
@@ -136,7 +131,7 @@
                 <!-- 
                   Accrodian
                  -->
-                 <div class="accordion mb-3" id="accordionExample">
+                 <div class="accordion mb-3" id="accordionExample" data-aos="zoom-in-left" data-aos-offset="200">
                   <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -175,7 +170,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto" data-aos="fade-right" data-aos-offset="200">
                 <img class="about-me-img img-thumbnail w-75 mx-auto" src="images/rajib2.jpg" alt="">
               </div>
             </div>
@@ -191,9 +186,9 @@
               <h1>Our <span class="text-primary">Services</span></h1>
               <hr class="w-25 m-auto">
             </div>
-            <div class="row">
+            <div class="row" data-aos="zoom-in-up" data-aos-offset="200">
               <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-left">
                   <div class="card-body">
                     <h5 class="card-title">Web Development</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -202,7 +197,7 @@
                 </div>
             </div>
               <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-down">
                   <div class="card-body bg-primary text-white">
                     <h5 class="card-title">App Development</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -211,7 +206,7 @@
                 </div>
             </div>
               <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up">
                   <div class="card-body">
                     <h5 class="card-title">Graphics Design</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -220,9 +215,9 @@
                 </div>
             </div>
           </div>
-            <div class="row mt-5">
+            <div class="row mt-5"data-aos="zoom-in-down" data-aos-offset="200">
               <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up">
                   <div class="card-body">
                     <h5 class="card-title">Web Development</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -231,7 +226,7 @@
                 </div>
             </div>
               <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-down">
                   <div class="card-body bg-primary text-white">
                     <h5 class="card-title">App Development</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -240,7 +235,7 @@
                 </div>
             </div>
               <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-left">
                   <div class="card-body">
                     <h5 class="card-title">Graphics Design</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -260,9 +255,9 @@
               <h1>Our <span class="text-primary">Services</span></h1>
               <hr class="w-25 m-auto">
             </div>
-            <div class="row">
+            <div class="row" data-aos="zoom-in-up" data-aos-offset="200">
               <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-down">
                   <div class="card-body">
                     <img class="img-fluid rounded-circle border border-primary p-2" src="images/rajib2.jpg" alt="">
                     <h5 class="card-title mt-4">Rajib Rahman</h5>
@@ -272,7 +267,7 @@
                 </div>
               </div>
               <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-up">
                   <div class="card-body">
                     <img class="img-fluid rounded-circle border border-primary p-2" src="images/himel.jpg" alt="">
                     <h5 class="card-title mt-4">Mehedi Hasan Himel</h5>
@@ -282,7 +277,7 @@
                 </div>
               </div>
               <div class="col-12 col-sm-12 col-md-4 col-lg-4">
-                <div class="card">
+                <div class="card" data-aos="zoom-in-right">
                   <div class="card-body">
                     <img class="img-fluid rounded-circle border border-primary p-2" src="images/sahin.jpg" alt="">
                     <h5 class="card-title mt-4">Sahinur Islam</h5>
@@ -304,9 +299,70 @@
             <div class="text-center my-5">
               <h1>Fill free <span class="text-primary">to Concept</span></h1>
               <hr class="w-25 m-auto">
+              <div class="row">
+                <div class="col-12-col-sm-12 col-md-12 col-lg-12">
+                  <form class="row g-3 w-50 mx-auto mt-4">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">City</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">State</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Zip</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
          </section>
+
+         <!-- 
+            footer section
+          -->
+          <footer class="container-fluid bg-primary text-white p-3 fs-6 text-center">
+            Developed by Rajib Rahman
+          </footer>
+
+
+
+    <!-- 
+      Animate libeary js
+     -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+          AOS.init();
+    </script>
 
     <!-- 
         Bootstrap js bunddle
